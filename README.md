@@ -5,7 +5,9 @@
 Mini Expense Manager is a full-stack application designed to help users track and manage their daily expenses. It supports manual entry, CSV uploads, automatic rule-based categorization, anomaly detection, and dashboard summaries. The application demonstrates problem-solving, technical implementation, and real-world data handling.
 
 ---
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c2943e8c-7bb0-4e77-9f18-f8d031267354" />
 
+---
 ## Features
 
 ### Core Features

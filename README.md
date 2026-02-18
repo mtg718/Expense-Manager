@@ -60,7 +60,7 @@ Mini Expense Manager is a full-stack application designed to help users track an
    ```bash
    mvn clean install
    ```
-3. Configure MySQL in `application.properties`:
+3. Configure MySQL in `application.yml`:
 
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/expense_manager
@@ -124,18 +124,22 @@ Mini Expense Manager is a full-stack application designed to help users track an
 ```
 Expense-Manager/
 │
-├─ backend/                # Spring Boot backend
-│   ├─ src/main/java
-│   ├─ src/main/resources
-│   └─ pom.xml
+├─ backend/                     # Spring Boot backend
+│  ├─ src/main/java
+│  ├─ src/main/resources
+│  └─ pom.xml
 │
-├─ frontend/               # React + TypeScript frontend
-│   ├─ src/components
-│   ├─ src/pages
-│   ├─ src/App.tsx
-│   └─ package.json
+├─ frontend/                    # React + TypeScript frontend
+│  ├─ src/
+│  │  ├─ api/                   
+│  │  ├─ types/                
+│  │  ├─ components/           
+│  │  └─ pages/                
+│  │
+│  └─ package.json
 │
 └─ README.md
+
 ```
 
 ---

@@ -51,7 +51,7 @@ public class ExpenseController {
 
         Map<String, Object> res = new HashMap<>();
 
-        //  Monthly totals formatted properly
+        //  Monthly totals
         List<Map<String, Object>> monthlyTotals = new ArrayList<>();
 
         for (Object[] row : repo.getMonthlyCategoryTotals()) {

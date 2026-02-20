@@ -19,7 +19,7 @@ public class ExpenseService {
 
         String category = vendorRepo
                 .findByVendorNameIgnoreCase(vendor)
-                .map(VendorCategoryMap::getCategory)
+                .map(vendorMap -> vendorMap.getCategory())
                 .orElse("Others");
 
         expense.setCategory(category);

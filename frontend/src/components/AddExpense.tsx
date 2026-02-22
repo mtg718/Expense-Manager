@@ -29,7 +29,7 @@ export default function AddExpense({ refresh }: Props) {
         description,
       });
 
-      toast.success("Expense added successfully ✅");
+      toast.success("Expense added successfully");
 
       setDate("");
       setAmount("");
@@ -38,7 +38,7 @@ export default function AddExpense({ refresh }: Props) {
 
       refresh();
     } catch (error) {
-      toast.error("Something went wrong ❌");
+      toast.error("Something went wrong");
     } finally {
       setLoading(false);
     }
